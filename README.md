@@ -1,3 +1,5 @@
+# 🚀 USquare Backend Assignnment
+
 ```bash
 # Install contract dependencies
 cd contracts
@@ -66,5 +68,4 @@ GET http://localhost:3000/api/posts/0x123...
 - Follower system
 - Pagination support
 
-## License
-ISC
+

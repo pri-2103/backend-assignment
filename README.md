@@ -26,6 +26,16 @@ npx hardhat compile
 npx hardhat run scripts/deploy.js --network sepolia
 ```
 
+```bash
+# To upgrade the contract
+cd contracts
+npx hardhat run scripts/upgrade.js --network sepolia
+```
+
+```bash
+# Run contract tests
+cd contracts
+npx hardhat test
 
 ```bash
 # Start backend
@@ -37,6 +47,13 @@ node server.js
 # Run contract tests
 cd contracts
 npx hardhat test
+
+## Contract Features
+- UUPS Upgradeable pattern
+- Emergency pause functionality
+- On-chain post management
+- Follower system
+- Pagination support
 
 ## API Endpoints
 
